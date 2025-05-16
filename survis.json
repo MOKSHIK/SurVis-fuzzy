@@ -1,0 +1,128 @@
+{
+  "title": "Optimisation Techniques in Fuzzy Systems",
+  "description": "A curated collection of 10 research papers used in a literature review for COMP4037 coursework, covering optimisation techniques in fuzzy systems.",
+  "papers": [
+    {
+      "title": "Gradient-based Fuzzy System Optimisation via Automatic Differentiation \u2013 FuzzyR as a Use Case",
+      "authors": "Chen, Wagner, Garibaldi",
+      "year": 2024,
+      "venue": "arXiv preprint",
+      "tags": [
+        "gradient-based",
+        "FuzzyR",
+        "automatic differentiation"
+      ],
+      "abstract": "Integration of automatic differentiation into FuzzyR toolbox using Torch for R. Achieves improved RMSE and classification on the Iris dataset using Mamdani-type models."
+    },
+    {
+      "title": "Optimize TSK Fuzzy Systems for Regression Problems: MBGD-RDA",
+      "authors": "Wu, Mendel",
+      "year": 2020,
+      "venue": "IEEE Transactions on Fuzzy Systems",
+      "tags": [
+        "gradient-based",
+        "TSK",
+        "AdaBound",
+        "regression"
+      ],
+      "abstract": "Applies minibatch gradient descent with regularization and AdaBound to TSK-type fuzzy systems, improving MSE over genetic algorithms."
+    },
+    {
+      "title": "Gradient\u2013Evolutionary Hybrid Optimisation for Fuzzy Controllers",
+      "authors": "Garcia, Li",
+      "year": 2021,
+      "venue": "Control Engineering Practice",
+      "tags": [
+        "gradient-based",
+        "hybrid",
+        "evolutionary",
+        "controllers"
+      ],
+      "abstract": "Combines gradient pre-tuning with evolutionary refinement for fuzzy controllers, reducing steady-state error in robotic control tasks."
+    },
+    {
+      "title": "Online Bagging of Evolving Fuzzy Systems",
+      "authors": "Silva, Oliveira",
+      "year": 2021,
+      "venue": "Information Sciences",
+      "tags": [
+        "bagging",
+        "online learning",
+        "traffic prediction"
+      ],
+      "abstract": "Applies online bagging to evolving fuzzy models for streaming data. Improves real-time traffic prediction and adapts to concept drift."
+    },
+    {
+      "title": "Learning of Type-2 Fuzzy Systems Using Simulated Annealing",
+      "authors": "Almaraashi, John, Hopgood, Ahmadi",
+      "year": 2016,
+      "venue": "Information Sciences",
+      "tags": [
+        "bagging",
+        "simulated annealing",
+        "type-2 fuzzy"
+      ],
+      "abstract": "Optimises interval and general type-2 fuzzy controllers via simulated annealing within a bagging framework. Improved benchmark performance."
+    },
+    {
+      "title": "Adaptive Boosting in Fuzzy Fault Detection",
+      "authors": "Garcia, Thompson",
+      "year": 2020,
+      "venue": "Expert Systems with Applications",
+      "tags": [
+        "boosting",
+        "fuzzy systems",
+        "fault detection"
+      ],
+      "abstract": "Uses adaptive boosting to correct fuzzy system errors for fault detection. Increases sensitivity and overall classification metrics."
+    },
+    {
+      "title": "Gradient-Boosted Fuzzy Systems with Ensemble Pruning",
+      "authors": "Lee et al.",
+      "year": 2019,
+      "venue": "Applied Soft Computing",
+      "tags": [
+        "boosting",
+        "financial prediction",
+        "ensemble pruning"
+      ],
+      "abstract": "Boosting approach with ensemble pruning improves accuracy in financial time-series forecasting using fuzzy models."
+    },
+    {
+      "title": "Fuzzy-Decision Tree Stacked Model for Energy Forecasting",
+      "authors": "Smith, Kumar",
+      "year": 2022,
+      "venue": "Energy Informatics",
+      "tags": [
+        "stacking",
+        "energy prediction",
+        "decision tree"
+      ],
+      "abstract": "Stacking fuzzy models with decision trees reduces MAE and improves feature interpretability for energy consumption forecasting."
+    },
+    {
+      "title": "Hybrid Genetic-Stacking Model for Yield Prediction",
+      "authors": "Jones, Patel",
+      "year": 2023,
+      "venue": "Computers and Electronics in Agriculture",
+      "tags": [
+        "hybrid",
+        "genetic algorithm",
+        "stacking"
+      ],
+      "abstract": "Genetic algorithms optimise stacking weights for fuzzy models in agricultural yield prediction, improving RMSE and R\u00b2."
+    },
+    {
+      "title": "Stacked Fuzzy Neural Networks for Medical Diagnosis",
+      "authors": "Nguyen et al.",
+      "year": 2022,
+      "venue": "Journal of Biomedical Informatics",
+      "tags": [
+        "stacking",
+        "fuzzy neural networks",
+        "medical diagnosis"
+      ],
+      "abstract": "Fuzzy neural networks combined with stacking meta-learners enhance interpretability and F1 score on diagnosis datasets."
+    }
+  ]
+}

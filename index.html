@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SurVis Literature Browser</title>
+  <link rel="stylesheet" href="css/survis.css" />
+</head>
+<body>
+  <h1>📚 SurVis Literature Browser</h1>
+  <p>This is a placeholder viewer. Your <code>survis.json</code> has been loaded.</p>
+  <pre id="data-output" style="background:#f4f4f4;padding:1em;border:1px solid #ccc;"></pre>
+
+  <script src="js/survis.js"></script>
+  <script>
+    fetch('survis.json')
+      .then(response => response.json())
+      .then(data => {
+        document.getElementById('data-output').textContent = JSON.stringify(data, null, 2);
+      })
+      .catch(err => {
+        document.getElementById('data-output').textContent = 'Failed to load survis.json';
+      });
+  </script>
+</body>
+</html>
